@@ -47,8 +47,8 @@ def print_metrics(acc, f1, precision, recall):
 def input_scores():
     c1, c2 = st.columns(2)
     test1 = c1.number_input("Тест 1")
-    test2 = c2.number_input("Тест 2")
-    test3 = c1.number_input("Тест 3")
+    test2 = c1.number_input("Тест 2")
+    test3 = c2.number_input("Тест 3")
     test4 = c2.number_input("Тест 4")
     return [test1, test2, test3, test4]
 
